@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Note Extension</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Note Taker</h1>
+    <textarea id="note" placeholder="Enter your note here..."></textarea>
+    <input type="text" id="tags" placeholder="Enter tags separated by commas">
+    <select id="priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <button id="save">Save Note</button>
+    <input type="text" id="search" placeholder="Search notes">
+    <button id="export">Export Notes</button>
+    <input type="file" id="import">
+    <div id="notes"></div>
+    <script type="module" src="launch.js"></script>
+    
+</body>
+</html>
